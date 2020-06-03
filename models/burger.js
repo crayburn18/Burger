@@ -19,7 +19,12 @@ const burger = {
     const result = await orm.update("burger", objColVals, condition);
 
     return result;
-  }
+  },
+  delete: async (condition) => {
+    const result = await orm.deleteOne("burger", condition);
+
+    return result;
+}
 };
 
 // Export the database functions for the controller (burgersController.js).

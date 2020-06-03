@@ -1,6 +1,5 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
-const mysql = require("mysql");
 const burgersController = require("./controllers/burgers-controller");
 
 const PORT = process.env.PORT || 8080;

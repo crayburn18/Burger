@@ -66,7 +66,15 @@ const orm = {
     const result = await connection.query(queryString);
 
     return result;
-  }
+  },
+  delete: async (table, condition)=>{
+    let queryString = `DELETE FROM ${table} WHERE ${condition}`;
+    console.log(queryString);
+
+    const result = await connection.query(queryString);
+
+    return result;
+}
 };
 
 // Export the orm object for the model (cat.js).
