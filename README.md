@@ -1,8 +1,6 @@
 # Project Title: Burger
-  - A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.:bulb:
-  - Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. 
-
-    Log what burgers you eat with this application utilizing MVC setup. Input the name of the burger you want to eat and choose whether to devour it. Html is created using handlebars while the entire app utilizes MySQL, Node, Express, Handlebars, and ORM.
+ 
+     Log what burgers you eat with this application utilizing MVC setup. Input the name of the burger you want to eat and choose whether to devour it. Html is created using handlebars while the entire app utilizes MySQL, Node, Express, Handlebars, and ORM.
 
   ## Table of Contents:
   - [User Story](#user-story-speech_balloon)
